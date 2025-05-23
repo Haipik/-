@@ -1,0 +1,95 @@
+h1 {
+ text-align:center;
+ font-family:sans-serif;
+}
+
+header {
+  border-bottom:5px black solid;
+  background-color:lightgray;
+}
+
+
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.item-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.text-block {
+  width: 50%;
+}
+
+.item-image {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border:3px solid;
+  border-radius:50px;
+}
+
+
+.bur, .konver, .plav {
+  font-family:sans-serif;
+  border:3px black solid;
+  border-radius:10px;
+  padding: 15px;
+  background-color: white;
+  margin: 0 20px;
+}
+
+
+.parallax-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.parallax-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/ru/b/b9/Satisfactory_Logo.png);
+  background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1; 
+  filter:blur(5px);
+  box-shadow:3px 3px 3px 3px;
+}
+
+.nav {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color:gray;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: 
+    background-color 0.4s ease-in-out,
+    color 0.4s ease-in-out,
+    transform 0.3s ease,
+    box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  user-select: none;
+  margin-right: 306px;
+  font-family:sans-serif;
+ 
+}
+
+.nav:hover {
+  background-color:aquamarine;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+nav{
+margin-bottom:30px;  
+}
