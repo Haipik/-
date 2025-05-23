@@ -1,0 +1,53 @@
+h1 {
+ text-align:center;
+ font-family:sans-serif;
+ margin-bottom:30px
+}
+
+header {
+  border-bottom:5px black solid;
+  background-color:lightgray;
+}
+
+
+
+
+.text-block {
+  width: 100%;
+}
+
+
+
+
+.bur, .konver, .plav {
+  font-family:sans-serif;
+  border:3px black solid;
+  border-radius:10px;
+  padding: 15px;
+  background-color: white;
+  margin-bottom:40px;
+}
+
+
+.parallax-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  padding-top:80px;
+}
+
+.parallax-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://coop-land.ru/uploads/posts/2022-07/1657962903_1.jpg);
+  background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1; 
+  filter:blur(5px);
+  box-shadow:3px 3px 3px 3px;
+}
