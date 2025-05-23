@@ -51,3 +51,30 @@ header {
   filter:blur(5px);
   box-shadow:3px 3px 3px 3px;
 }
+
+
+
+.nav {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color:gray;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: 
+    background-color 0.4s ease-in-out,
+    color 0.4s ease-in-out,
+    transform 0.3s ease,
+    box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  user-select: none;
+  margin-right: 204px;
+  font-family:sans-serif;
+ 
+}
+
+.nav:hover {
+  background-color:aquamarine;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
