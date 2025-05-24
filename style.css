@@ -82,6 +82,9 @@ header {
   user-select: none;
   margin-right: 306px;
   font-family:sans-serif;
+ display:flex;
+ justify-content:center;
+ 
  
 }
 
