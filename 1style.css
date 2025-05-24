@@ -68,7 +68,7 @@ header {
     box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   cursor: pointer;
   user-select: none;
-  margin-right: 204px;
+  margin-right: 306px;
   font-family:sans-serif;
  
 }
@@ -77,4 +77,8 @@ header {
   background-color:aquamarine;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+nav{
+margin-bottom:30px;  
 }
